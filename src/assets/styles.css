@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Nunito:wght@400;600;700;900&display=swap');
+
+/* ─── LIGHT ──────────────────────────────────────────────────────────────── */
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Nunito', sans-serif;
+  --bg:           #f7f8fc;
+  --surface:      #ffffff;
+  --surface-2:    #f0f2fa;
+  --border:       #e4e8f5;
+  --text:         #1a1d2e;
+  --text-muted:   #8892b0;
+  --text-light:   #c0c8e0;
+  --purple:       #6c4de6;
+  --purple-light: #8b6ef0;
+  --purple-bg:    rgba(108, 77, 230, 0.08);
+  --purple-glow:  rgba(108, 77, 230, 0.20);
+  --daily-color:   #6c4de6;
+  --endless-color: #d63aaa;
+  --express-color: #f56c00;
+  --expert-color:  #e03040;
+  --survival-color:#1a9e6c;
+  --correct:       #1a9e6c;
+  --correct-bg:    rgba(26, 158, 108, 0.10);
+  --wrong:         #e03040;
+  --wrong-bg:      rgba(224, 48, 64, 0.10);
+  --shadow-sm:  0 2px 8px rgba(30, 20, 80, 0.06);
+  --shadow-md:  0 4px 20px rgba(30, 20, 80, 0.09);
+  --shadow-lg:  0 8px 40px rgba(30, 20, 80, 0.13);
+  --radius-sm:  10px;
+  --radius-md:  16px;
+  --radius-lg:  24px;
+  --radius-xl:  32px;
+}
+
+/* ─── DARK ───────────────────────────────────────────────────────────────── */
+:root.dark {
+  --bg:           #0f1117;
+  --surface:      #181c27;
+  --surface-2:    #1e2333;
+  --border:       #272d42;
+  --text:         #e8ecf8;
+  --text-muted:   #6b7599;
+  --text-light:   #3d4566;
+  --purple:       #7c61f0;
+  --purple-light: #9b82f5;
+  --purple-bg:    rgba(124, 97, 240, 0.12);
+  --purple-glow:  rgba(124, 97, 240, 0.25);
+  --correct:       #22c67a;
+  --correct-bg:    rgba(34, 198, 122, 0.12);
+  --wrong:         #f04455;
+  --wrong-bg:      rgba(240, 68, 85, 0.12);
+  --shadow-sm:  0 2px 8px rgba(0,0,0,.35);
+  --shadow-md:  0 4px 20px rgba(0,0,0,.45);
+  --shadow-lg:  0 8px 40px rgba(0,0,0,.55);
+}
+
+/* ─── Reset ──────────────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100dvh;transition:background .3s,color .3s}
+#app{min-height:100dvh;display:flex;flex-direction:column}
+h1,h2,h3{font-family:var(--font-display)}
+strong{font-weight:700}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:99px}
+
+/* ─── Utilities ──────────────────────────────────────────────────────────── */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-body);font-weight:700;font-size:.95rem;padding:12px 24px;border-radius:var(--radius-md);border:none;cursor:pointer;transition:all .18s ease}
+.btn-primary{background:var(--purple);color:#fff;box-shadow:0 4px 16px var(--purple-glow)}
+.btn-primary:hover{background:var(--purple-light);transform:translateY(-1px)}
+.btn-ghost{background:var(--surface-2);color:var(--text);border:2px solid var(--border)}
+.btn-ghost:hover{background:var(--border)}
+.card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
+
+.theme-toggle{width:36px;height:36px;border-radius:50%;border:1.5px solid var(--border);background:var(--surface-2);cursor:pointer;font-size:1.05rem;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0}
+.theme-toggle:hover{border-color:var(--purple);background:var(--purple-bg)}
+
+/* ─── Page transitions ───────────────────────────────────────────────────── */
+.page-enter-active,.page-leave-active{transition:opacity .2s,transform .2s}
+.page-enter-from{opacity:0;transform:translateY(8px)}
+.page-leave-to{opacity:0;transform:translateY(-8px)}

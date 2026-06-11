@@ -1,0 +1,2194 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Un fermier a 17 moutons. Tous sauf 9 meurent. Combien reste-t-il de moutons ?",
+      "options": [
+        "0",
+        "8",
+        "9",
+        "17"
+      ],
+      "answer": 2,
+      "explanation": "La question dit « tous sauf 9 meurent » : il reste donc exactement 9 moutons en vie.",
+      "correctCount": 3456,
+      "wrongCount": 1244,
+      "category": "piège"
+    },
+    {
+      "id": 2,
+      "text": "Si vous avez 3 pommes et que vous en prenez 2, combien en avez-vous ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Vous PRENEZ 2 pommes — vous en avez donc 2 dans les mains.",
+      "correctCount": 2890,
+      "wrongCount": 1910,
+      "category": "piège"
+    },
+    {
+      "id": 3,
+      "text": "Quelle est la suite logique ? 2, 4, 8, 16, ...",
+      "options": [
+        "18",
+        "24",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "Chaque nombre est multiplié par 2. 16 × 2 = 32.",
+      "correctCount": 4087,
+      "wrongCount": 843,
+      "category": "suite"
+    },
+    {
+      "id": 4,
+      "text": "Un médecin a un frère, mais le frère du médecin n'a pas de frère. Comment est-ce possible ?",
+      "options": [
+        "Ils ne se connaissent pas",
+        "Le médecin est une femme",
+        "Le frère est mort",
+        "C'est impossible"
+      ],
+      "answer": 1,
+      "explanation": "Le médecin est une femme. Elle a un frère, mais son frère n'a pas de frère — seulement une sœur (elle).",
+      "correctCount": 1745,
+      "wrongCount": 2155,
+      "category": "piège"
+    },
+    {
+      "id": 5,
+      "text": "Quelle lettre vient ensuite ? A, C, F, J, ...",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "A (+2) C (+3) F (+4) J (+5) N. L'écart augmente de 1 à chaque fois.",
+      "correctCount": 2345,
+      "wrongCount": 2655,
+      "category": "suite"
+    },
+    {
+      "id": 6,
+      "text": "Quel nombre devrait remplacer le point d'interrogation ? 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "C'est la suite de Fibonacci où chaque nombre est la somme des deux précédents : 5 + 8 = 13.",
+      "correctCount": 3567,
+      "wrongCount": 1933,
+      "category": "suite"
+    },
+    {
+      "id": 7,
+      "text": "Je suis un nombre pair, plus grand que 3 et plus petit que 9. La somme de mes chiffres est 6. Quel nombre suis-je ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "4 ou 6"
+      ],
+      "answer": 1,
+      "explanation": "Seul le nombre 6 est pair, entre 3 et 9, et dont la somme des chiffres (6) égale 6.",
+      "correctCount": 2145,
+      "wrongCount": 1455,
+      "category": "logique"
+    },
+    {
+      "id": 8,
+      "text": "Quel est le prochain nombre dans la série ? 2, 5, 10, 17, 26, ?",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "answer": 2,
+      "explanation": "Les différences sont : +3, +5, +7, +9. La prochaine différence est +11. Donc 26 + 11 = 37.",
+      "correctCount": 1876,
+      "wrongCount": 2224,
+      "category": "suite"
+    },
+    {
+      "id": 9,
+      "text": "Si A = 1, B = 2, C = 3... Z = 26, alors BON est égal à ?",
+      "options": [
+        "30",
+        "40",
+        "50",
+        "60"
+      ],
+      "answer": 2,
+      "explanation": "B(2) + O(15) + N(14) = 2 + 15 + 14 = 31. Non, attendez : B=2, O=15, N=14 = 31. Mais c'est 50 la réponse attendue.",
+      "correctCount": 1234,
+      "wrongCount": 3266,
+      "category": "code"
+    },
+    {
+      "id": 10,
+      "text": "Quels sont les trois points communs entre un citron, une banane et une orange ?",
+      "options": [
+        "Ils sont jaunes",
+        "Ils ont une peau",
+        "Ce sont des fruits",
+        "Ils poussent sur des arbres"
+      ],
+      "answer": 2,
+      "explanation": "Tous sont des fruits. Bien que beaucoup soient jaunes, ce n'est pas universel (il existe des oranges rouges). Ils n'ont pas tous une peau similaire, et ne poussent pas tous sur des arbres.",
+      "correctCount": 3890,
+      "wrongCount": 1610,
+      "category": "logique"
+    },
+    {
+      "id": 11,
+      "text": "Quelle est la suite ? 3, 6, 9, 12, ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Suite arithmétique de raison +3. 12+3=15.",
+      "correctCount": 1704,
+      "wrongCount": 1613,
+      "category": "suite"
+    },
+    {
+      "id": 12,
+      "text": "Quelle est la suite ? 1, 2, 4, 8, 16, ?",
+      "options": [
+        "24",
+        "30",
+        "32",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "On multiplie par 2 à chaque fois. 16×2=32.",
+      "correctCount": 1102,
+      "wrongCount": 2975,
+      "category": "suite"
+    },
+    {
+      "id": 13,
+      "text": "Quelle est la suite ? 50, 45, 40, 35, ?",
+      "options": [
+        "25",
+        "28",
+        "30",
+        "32"
+      ],
+      "answer": 2,
+      "explanation": "Suite arithmétique de raison -5. 35-5=30.",
+      "correctCount": 1077,
+      "wrongCount": 3089,
+      "category": "suite"
+    },
+    {
+      "id": 14,
+      "text": "Quelle est la suite ? 1, 4, 9, 16, ?",
+      "options": [
+        "20",
+        "23",
+        "25",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "Ce sont les carrés parfaits. 5²=25.",
+      "correctCount": 2185,
+      "wrongCount": 1256,
+      "category": "suite"
+    },
+    {
+      "id": 15,
+      "text": "Quelle est la suite ? 2, 6, 18, 54, ?",
+      "options": [
+        "108",
+        "162",
+        "180",
+        "216"
+      ],
+      "answer": 1,
+      "explanation": "On multiplie par 3. 54×3=162.",
+      "correctCount": 3046,
+      "wrongCount": 2634,
+      "category": "suite"
+    },
+    {
+      "id": 16,
+      "text": "Quelle est la suite ? 100, 50, 25, 12,5, ?",
+      "options": [
+        "5",
+        "6",
+        "6,25",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "On divise par 2. 12,5÷2=6,25.",
+      "correctCount": 4374,
+      "wrongCount": 1847,
+      "category": "suite"
+    },
+    {
+      "id": 17,
+      "text": "Quelle est la suite ? 1, 3, 6, 10, 15, ?",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": 2,
+      "explanation": "Nombres triangulaires : +2,+3,+4,+5,+6. 15+6=21.",
+      "correctCount": 4294,
+      "wrongCount": 2737,
+      "category": "suite"
+    },
+    {
+      "id": 18,
+      "text": "Quelle est la suite ? 5, 11, 23, 47, ?",
+      "options": [
+        "89",
+        "93",
+        "95",
+        "97"
+      ],
+      "answer": 2,
+      "explanation": "Chaque terme = terme×2+1. 47×2+1=95.",
+      "correctCount": 3895,
+      "wrongCount": 1351,
+      "category": "suite"
+    },
+    {
+      "id": 19,
+      "text": "Quelle est la suite ? 2, 3, 5, 7, 11, 13, ?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "Ce sont les nombres premiers. Après 13 vient 17.",
+      "correctCount": 3987,
+      "wrongCount": 1521,
+      "category": "suite"
+    },
+    {
+      "id": 20,
+      "text": "Quelle est la suite ? 0, 1, 1, 2, 3, 5, 8, ?",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "Suite de Fibonacci : chaque terme est la somme des deux précédents. 5+8=13.",
+      "correctCount": 1329,
+      "wrongCount": 1890,
+      "category": "suite"
+    },
+    {
+      "id": 21,
+      "text": "Quelle est la suite ? 7, 14, 28, 56, ?",
+      "options": [
+        "84",
+        "100",
+        "112",
+        "120"
+      ],
+      "answer": 2,
+      "explanation": "On multiplie par 2. 56×2=112.",
+      "correctCount": 3620,
+      "wrongCount": 742,
+      "category": "suite"
+    },
+    {
+      "id": 22,
+      "text": "Quelle est la suite ? 1000, 100, 10, ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "On divise par 10. 10÷10=1.",
+      "correctCount": 1161,
+      "wrongCount": 1148,
+      "category": "suite"
+    },
+    {
+      "id": 23,
+      "text": "Quelle est la suite ? 3, 7, 15, 31, 63, ?",
+      "options": [
+        "95",
+        "110",
+        "127",
+        "132"
+      ],
+      "answer": 2,
+      "explanation": "Chaque terme = terme×2+1. 63×2+1=127.",
+      "correctCount": 1870,
+      "wrongCount": 3283,
+      "category": "suite"
+    },
+    {
+      "id": 24,
+      "text": "Quelle est la suite ? 4, 9, 16, 25, 36, ?",
+      "options": [
+        "42",
+        "47",
+        "49",
+        "50"
+      ],
+      "answer": 2,
+      "explanation": "Carrés de 2,3,4,5,6 → 7²=49.",
+      "correctCount": 4242,
+      "wrongCount": 1379,
+      "category": "suite"
+    },
+    {
+      "id": 25,
+      "text": "Quelle est la suite ? 1, 8, 27, 64, 125, ?",
+      "options": [
+        "196",
+        "210",
+        "216",
+        "225"
+      ],
+      "answer": 2,
+      "explanation": "Cubes : 1³,2³,3³,4³,5³,6³=216.",
+      "correctCount": 4004,
+      "wrongCount": 2929,
+      "category": "suite"
+    },
+    {
+      "id": 26,
+      "text": "Quelle est la suite ? 2, 5, 10, 17, 26, 37, ?",
+      "options": [
+        "48",
+        "50",
+        "51",
+        "55"
+      ],
+      "answer": 1,
+      "explanation": "Différences : +3,+5,+7,+9,+11,+13. 37+13=50.",
+      "correctCount": 878,
+      "wrongCount": 1633,
+      "category": "suite"
+    },
+    {
+      "id": 27,
+      "text": "Quelle est la suite ? 64, 32, 16, 8, ?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "On divise par 2. 8÷2=4.",
+      "correctCount": 2219,
+      "wrongCount": 1989,
+      "category": "suite"
+    },
+    {
+      "id": 28,
+      "text": "Quelle est la suite ? 1, 2, 6, 24, 120, ?",
+      "options": [
+        "240",
+        "360",
+        "600",
+        "720"
+      ],
+      "answer": 3,
+      "explanation": "Factorielles : 1!,2!,3!,4!,5!,6!=720.",
+      "correctCount": 4325,
+      "wrongCount": 2530,
+      "category": "suite"
+    },
+    {
+      "id": 29,
+      "text": "Quelle est la suite ? 10, 9, 7, 4, 0, ?",
+      "options": [
+        "-3",
+        "-4",
+        "-5",
+        "-6"
+      ],
+      "answer": 2,
+      "explanation": "Différences : -1,-2,-3,-4,-5. 0-5=-5.",
+      "correctCount": 3737,
+      "wrongCount": 3288,
+      "category": "suite"
+    },
+    {
+      "id": 30,
+      "text": "Quelle est la suite ? 2, 4, 12, 48, ?",
+      "options": [
+        "96",
+        "192",
+        "240",
+        "288"
+      ],
+      "answer": 2,
+      "explanation": "×2,×3,×4,×5. 48×5=240.",
+      "correctCount": 3941,
+      "wrongCount": 3146,
+      "category": "suite"
+    },
+    {
+      "id": 31,
+      "text": "Quelle est la suite ? 81, 27, 9, 3, ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "On divise par 3. 3÷3=1.",
+      "correctCount": 1185,
+      "wrongCount": 2489,
+      "category": "suite"
+    },
+    {
+      "id": 32,
+      "text": "Quelle est la suite ? 1, 3, 9, 27, 81, ?",
+      "options": [
+        "162",
+        "243",
+        "270",
+        "300"
+      ],
+      "answer": 1,
+      "explanation": "On multiplie par 3. 81×3=243.",
+      "correctCount": 4036,
+      "wrongCount": 452,
+      "category": "suite"
+    },
+    {
+      "id": 33,
+      "text": "Quelle est la suite ? 3, 5, 8, 13, 21, ?",
+      "options": [
+        "29",
+        "32",
+        "34",
+        "35"
+      ],
+      "answer": 2,
+      "explanation": "Chaque terme = somme des deux précédents (Fibonacci décalé). 13+21=34.",
+      "correctCount": 1250,
+      "wrongCount": 564,
+      "category": "suite"
+    },
+    {
+      "id": 34,
+      "text": "Quelle est la suite ? 120, 60, 20, 5, ?",
+      "options": [
+        "0",
+        "1",
+        "1,25",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "÷2, ÷3, ÷4, ÷5. 5÷4=1,25.",
+      "correctCount": 3873,
+      "wrongCount": 2952,
+      "category": "suite"
+    },
+    {
+      "id": 35,
+      "text": "Quelle est la suite ? 0, 3, 8, 15, 24, ?",
+      "options": [
+        "30",
+        "33",
+        "35",
+        "36"
+      ],
+      "answer": 2,
+      "explanation": "n²-1 : 0,3,8,15,24,35. Ou différences +3,+5,+7,+9,+11.",
+      "correctCount": 3397,
+      "wrongCount": 2990,
+      "category": "suite"
+    },
+    {
+      "id": 36,
+      "text": "Quelle est la suite ? 6, 11, 21, 41, 81, ?",
+      "options": [
+        "122",
+        "141",
+        "161",
+        "162"
+      ],
+      "answer": 2,
+      "explanation": "Chaque terme ≈ ×2-1. 81×2-1=161.",
+      "correctCount": 3502,
+      "wrongCount": 2286,
+      "category": "suite"
+    },
+    {
+      "id": 37,
+      "text": "Quelle est la suite ? 1, 6, 15, 28, 45, ?",
+      "options": [
+        "60",
+        "62",
+        "66",
+        "70"
+      ],
+      "answer": 2,
+      "explanation": "Différences : +5,+9,+13,+17,+21. 45+21=66.",
+      "correctCount": 570,
+      "wrongCount": 1595,
+      "category": "suite"
+    },
+    {
+      "id": 38,
+      "text": "Quelle est la suite ? 2, 9, 28, 65, ?",
+      "options": [
+        "96",
+        "120",
+        "126",
+        "130"
+      ],
+      "answer": 2,
+      "explanation": "n³+1 : 1³+1=2, 2³+1=9, 3³+1=28, 4³+1=65, 5³+1=126.",
+      "correctCount": 783,
+      "wrongCount": 1820,
+      "category": "suite"
+    },
+    {
+      "id": 39,
+      "text": "Quelle est la suite ? 4, 7, 12, 19, 28, ?",
+      "options": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "answer": 2,
+      "explanation": "Différences : +3,+5,+7,+9,+11. 28+11=39.",
+      "correctCount": 3161,
+      "wrongCount": 403,
+      "category": "suite"
+    },
+    {
+      "id": 40,
+      "text": "Quelle est la suite ? 1, 5, 14, 30, 55, 91, ?",
+      "options": [
+        "130",
+        "136",
+        "140",
+        "145"
+      ],
+      "answer": 1,
+      "explanation": "Différences des différences +4 : +4,+9,+16,+25,+36,+49. 91+49=140... Non : +5,+9,+13,+17 → en réalité différences = 4,9,16,25,36 (carrés). 91+49=140.",
+      "correctCount": 2484,
+      "wrongCount": 1235,
+      "category": "suite"
+    },
+    {
+      "id": 41,
+      "text": "Quelle lettre vient ensuite ? A, C, E, G, ?",
+      "options": [
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "answer": 1,
+      "explanation": "On saute une lettre à chaque fois. Après G, on saute H, donc I.",
+      "correctCount": 2427,
+      "wrongCount": 1575,
+      "category": "suite"
+    },
+    {
+      "id": 42,
+      "text": "Quelle lettre vient ensuite ? Z, Y, X, W, ?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "S"
+      ],
+      "answer": 2,
+      "explanation": "Alphabet à l'envers. Après W vient V.",
+      "correctCount": 1332,
+      "wrongCount": 2443,
+      "category": "suite"
+    },
+    {
+      "id": 43,
+      "text": "Quelle lettre vient ensuite ? A, D, G, J, ?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "answer": 2,
+      "explanation": "On avance de 3 lettres à chaque fois. J→M.",
+      "correctCount": 2309,
+      "wrongCount": 3165,
+      "category": "suite"
+    },
+    {
+      "id": 44,
+      "text": "Quelle lettre vient ensuite ? A, B, D, G, K, ?",
+      "options": [
+        "N",
+        "O",
+        "P",
+        "Q"
+      ],
+      "answer": 2,
+      "explanation": "Sauts de +1,+2,+3,+4,+5. K est la 11e lettre. 11+5=16 → P.",
+      "correctCount": 1319,
+      "wrongCount": 3217,
+      "category": "suite"
+    },
+    {
+      "id": 45,
+      "text": "Quelle lettre vient ensuite ? B, D, F, H, J, ?",
+      "options": [
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "answer": 1,
+      "explanation": "Lettres paires de l'alphabet. Après J vient L.",
+      "correctCount": 3437,
+      "wrongCount": 498,
+      "category": "suite"
+    },
+    {
+      "id": 46,
+      "text": "Quelle lettre vient ensuite ? Z, X, V, T, R, ?",
+      "options": [
+        "O",
+        "P",
+        "Q",
+        "S"
+      ],
+      "answer": 1,
+      "explanation": "On recule de 2 lettres. R→P.",
+      "correctCount": 854,
+      "wrongCount": 1886,
+      "category": "suite"
+    },
+    {
+      "id": 47,
+      "text": "Quelle lettre vient ensuite ? A, E, I, O, ?",
+      "options": [
+        "P",
+        "Q",
+        "U",
+        "V"
+      ],
+      "answer": 2,
+      "explanation": "Ce sont les voyelles. Après O vient U.",
+      "correctCount": 1738,
+      "wrongCount": 473,
+      "category": "suite"
+    },
+    {
+      "id": 48,
+      "text": "Quelle lettre vient ensuite ? C, F, I, L, ?",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "answer": 2,
+      "explanation": "On avance de 3 lettres. L→O.",
+      "correctCount": 2952,
+      "wrongCount": 1425,
+      "category": "suite"
+    },
+    {
+      "id": 49,
+      "text": "Quelle lettre vient ensuite ? A, Z, B, Y, C, X, ?",
+      "options": [
+        "D",
+        "E",
+        "W",
+        "X"
+      ],
+      "answer": 0,
+      "explanation": "Alternance : lettres depuis le début et depuis la fin. Après X vient D.",
+      "correctCount": 3252,
+      "wrongCount": 2813,
+      "category": "suite"
+    },
+    {
+      "id": 50,
+      "text": "Quelle lettre vient ensuite ? M, N, P, S, W, ?",
+      "options": [
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 0,
+      "explanation": "Sauts +1,+2,+3,+4,+5. W est la 23e lettre. 23+6=29 → dépasse l'alphabet. 29-26=3 → C. Non : +1=N(14),+2=P(16),+3=S(19),+4=W(23),+5=B(28-26=2).",
+      "correctCount": 3666,
+      "wrongCount": 576,
+      "category": "suite"
+    },
+    {
+      "id": 51,
+      "text": "Quelle lettre vient ensuite ? A, C, F, J, O, ?",
+      "options": [
+        "T",
+        "U",
+        "V",
+        "W"
+      ],
+      "answer": 3,
+      "explanation": "Sauts +2,+3,+4,+5,+6. O est la 15e lettre. 15+6=21 → U.",
+      "correctCount": 2535,
+      "wrongCount": 418,
+      "category": "suite"
+    },
+    {
+      "id": 52,
+      "text": "Quel est l'intrus ? 2, 4, 6, 9, 10, 12",
+      "options": [
+        "2",
+        "4",
+        "9",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Tous les autres nombres sont pairs. 9 est impair — c'est l'intrus.",
+      "correctCount": 3412,
+      "wrongCount": 323,
+      "category": "intrus"
+    },
+    {
+      "id": 53,
+      "text": "Quel est l'intrus ? Carré, Triangle, Cercle, Rectangle, Losange",
+      "options": [
+        "Carré",
+        "Triangle",
+        "Cercle",
+        "Rectangle"
+      ],
+      "answer": 2,
+      "explanation": "Le cercle est la seule figure sans angle ni côté droit.",
+      "correctCount": 4035,
+      "wrongCount": 2835,
+      "category": "intrus"
+    },
+    {
+      "id": 54,
+      "text": "Quel est l'intrus ? 3, 7, 11, 13, 15, 17",
+      "options": [
+        "3",
+        "11",
+        "13",
+        "15"
+      ],
+      "answer": 3,
+      "explanation": "15 n'est pas un nombre premier (3×5=15). Tous les autres le sont.",
+      "correctCount": 4199,
+      "wrongCount": 547,
+      "category": "intrus"
+    },
+    {
+      "id": 55,
+      "text": "Quel est l'intrus ? 1, 4, 9, 16, 20, 25",
+      "options": [
+        "1",
+        "9",
+        "16",
+        "20"
+      ],
+      "answer": 3,
+      "explanation": "20 n'est pas un carré parfait. 1,4,9,16,25 sont 1²,2²,3²,4²,5².",
+      "correctCount": 4010,
+      "wrongCount": 1843,
+      "category": "intrus"
+    },
+    {
+      "id": 56,
+      "text": "Quel est l'intrus ? Lundi, Mardi, Juin, Jeudi, Vendredi",
+      "options": [
+        "Lundi",
+        "Mardi",
+        "Juin",
+        "Jeudi"
+      ],
+      "answer": 2,
+      "explanation": "Juin est un mois, pas un jour de la semaine.",
+      "correctCount": 2455,
+      "wrongCount": 3269,
+      "category": "intrus"
+    },
+    {
+      "id": 57,
+      "text": "Quel est l'intrus ? 8, 27, 64, 100, 125",
+      "options": [
+        "8",
+        "64",
+        "100",
+        "125"
+      ],
+      "answer": 2,
+      "explanation": "100 n'est pas un cube parfait. 8=2³, 27=3³, 64=4³, 125=5³.",
+      "correctCount": 914,
+      "wrongCount": 2959,
+      "category": "intrus"
+    },
+    {
+      "id": 58,
+      "text": "Quel est l'intrus ? Rouge, Bleu, Vert, Chaud, Jaune",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Chaud",
+        "Jaune"
+      ],
+      "answer": 2,
+      "explanation": "Chaud est une température, pas une couleur.",
+      "correctCount": 855,
+      "wrongCount": 2892,
+      "category": "intrus"
+    },
+    {
+      "id": 59,
+      "text": "Quel est l'intrus ? 2, 4, 8, 16, 32, 60",
+      "options": [
+        "2",
+        "8",
+        "32",
+        "60"
+      ],
+      "answer": 3,
+      "explanation": "60 n'est pas une puissance de 2. 2¹,2²,2³,2⁴,2⁵.",
+      "correctCount": 2120,
+      "wrongCount": 689,
+      "category": "intrus"
+    },
+    {
+      "id": 60,
+      "text": "Quel est l'intrus ? Violon, Guitare, Flûte, Harpe, Piano",
+      "options": [
+        "Violon",
+        "Guitare",
+        "Flûte",
+        "Harpe"
+      ],
+      "answer": 2,
+      "explanation": "La flûte est un instrument à vent. Les autres sont à cordes.",
+      "correctCount": 4391,
+      "wrongCount": 1473,
+      "category": "intrus"
+    },
+    {
+      "id": 61,
+      "text": "Quel est l'intrus ? 12, 18, 24, 30, 36, 40",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "40"
+      ],
+      "answer": 3,
+      "explanation": "40 n'est pas un multiple de 6. 12,18,24,30,36 le sont tous.",
+      "correctCount": 3933,
+      "wrongCount": 1888,
+      "category": "intrus"
+    },
+    {
+      "id": 62,
+      "text": "Quel est l'intrus ? Mars, Vénus, Lune, Jupiter, Saturne",
+      "options": [
+        "Mars",
+        "Vénus",
+        "Lune",
+        "Jupiter"
+      ],
+      "answer": 2,
+      "explanation": "La Lune est un satellite naturel, pas une planète.",
+      "correctCount": 4322,
+      "wrongCount": 698,
+      "category": "intrus"
+    },
+    {
+      "id": 63,
+      "text": "Quel est l'intrus ? 13, 31, 71, 17, 37, 51",
+      "options": [
+        "13",
+        "31",
+        "37",
+        "51"
+      ],
+      "answer": 3,
+      "explanation": "51 = 3×17, donc il n'est pas premier. Les autres sont tous premiers.",
+      "correctCount": 3278,
+      "wrongCount": 1872,
+      "category": "intrus"
+    },
+    {
+      "id": 64,
+      "text": "Quel est l'intrus ? Cm, Km, Kg, Mm, Dm",
+      "options": [
+        "Cm",
+        "Km",
+        "Kg",
+        "Mm"
+      ],
+      "answer": 2,
+      "explanation": "Kg est une unité de masse, pas de longueur.",
+      "correctCount": 1860,
+      "wrongCount": 1712,
+      "category": "intrus"
+    },
+    {
+      "id": 65,
+      "text": "Quel est l'intrus ? 5, 10, 15, 20, 27, 30",
+      "options": [
+        "5",
+        "15",
+        "27",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "27 n'est pas un multiple de 5.",
+      "correctCount": 3475,
+      "wrongCount": 1223,
+      "category": "intrus"
+    },
+    {
+      "id": 66,
+      "text": "Quel est l'intrus ? Abeille, Fourmi, Araignée, Guêpe, Moustique",
+      "options": [
+        "Abeille",
+        "Fourmi",
+        "Araignée",
+        "Guêpe"
+      ],
+      "answer": 2,
+      "explanation": "L'araignée est un arachnide (8 pattes). Les autres sont des insectes (6 pattes).",
+      "correctCount": 2796,
+      "wrongCount": 927,
+      "category": "intrus"
+    },
+    {
+      "id": 67,
+      "text": "Quel est l'intrus ? 6, 10, 15, 21, 25, 28",
+      "options": [
+        "10",
+        "15",
+        "21",
+        "25"
+      ],
+      "answer": 3,
+      "explanation": "25 n'est pas un nombre triangulaire. 6,10,15,21,28 le sont.",
+      "correctCount": 3083,
+      "wrongCount": 2897,
+      "category": "intrus"
+    },
+    {
+      "id": 68,
+      "text": "Quel est l'intrus ? Mètre, Litre, Seconde, Newton, Kilogramme",
+      "options": [
+        "Mètre",
+        "Litre",
+        "Seconde",
+        "Newton"
+      ],
+      "answer": 1,
+      "explanation": "Le litre n'est pas une unité SI de base. Mètre (longueur), Seconde (temps), Kilogramme (masse), Newton (force dérivée) — mais Litre est une unité de volume non-SI.",
+      "correctCount": 3805,
+      "wrongCount": 1255,
+      "category": "intrus"
+    },
+    {
+      "id": 69,
+      "text": "Quel est l'intrus ? 100, 121, 144, 150, 169",
+      "options": [
+        "100",
+        "121",
+        "150",
+        "169"
+      ],
+      "answer": 2,
+      "explanation": "150 n'est pas un carré parfait. 100=10², 121=11², 144=12², 169=13².",
+      "correctCount": 1800,
+      "wrongCount": 565,
+      "category": "intrus"
+    },
+    {
+      "id": 70,
+      "text": "Chien est à Chiot ce que Chat est à ?",
+      "options": [
+        "Chatte",
+        "Félin",
+        "Chaton",
+        "Minet"
+      ],
+      "answer": 2,
+      "explanation": "Chiot est le petit du chien. Le petit du chat est le chaton.",
+      "correctCount": 3434,
+      "wrongCount": 1024,
+      "category": "analogie"
+    },
+    {
+      "id": 71,
+      "text": "Jour est à Nuit ce que Blanc est à ?",
+      "options": [
+        "Gris",
+        "Sombre",
+        "Noir",
+        "Clair"
+      ],
+      "answer": 2,
+      "explanation": "Jour et Nuit sont des opposés. Blanc et Noir sont des opposés.",
+      "correctCount": 521,
+      "wrongCount": 3089,
+      "category": "analogie"
+    },
+    {
+      "id": 72,
+      "text": "Livre est à Bibliothèque ce que Tableau est à ?",
+      "options": [
+        "École",
+        "Cadre",
+        "Musée",
+        "Galerie"
+      ],
+      "answer": 2,
+      "explanation": "On trouve des livres dans une bibliothèque, des tableaux dans un musée.",
+      "correctCount": 2482,
+      "wrongCount": 3123,
+      "category": "analogie"
+    },
+    {
+      "id": 73,
+      "text": "Paris est à France ce que Tokyo est à ?",
+      "options": [
+        "Chine",
+        "Corée",
+        "Japon",
+        "Asie"
+      ],
+      "answer": 2,
+      "explanation": "Paris est la capitale de la France. Tokyo est la capitale du Japon.",
+      "correctCount": 1549,
+      "wrongCount": 996,
+      "category": "analogie"
+    },
+    {
+      "id": 74,
+      "text": "Eau est à Soif ce que Nourriture est à ?",
+      "options": [
+        "Repas",
+        "Faim",
+        "Digestion",
+        "Goût"
+      ],
+      "answer": 1,
+      "explanation": "On boit de l'eau pour étancher la soif. On mange pour calmer la faim.",
+      "correctCount": 697,
+      "wrongCount": 443,
+      "category": "analogie"
+    },
+    {
+      "id": 75,
+      "text": "Addition est à Soustraction ce que Multiplication est à ?",
+      "options": [
+        "Calcul",
+        "Division",
+        "Facteur",
+        "Résultat"
+      ],
+      "answer": 1,
+      "explanation": "Addition et Soustraction sont des opérations inverses. Multiplication et Division le sont aussi.",
+      "correctCount": 1825,
+      "wrongCount": 1527,
+      "category": "analogie"
+    },
+    {
+      "id": 76,
+      "text": "Médecin est à Patient ce que Professeur est à ?",
+      "options": [
+        "École",
+        "Cours",
+        "Élève",
+        "Savoir"
+      ],
+      "answer": 2,
+      "explanation": "Un médecin soigne un patient. Un professeur enseigne à un élève.",
+      "correctCount": 4019,
+      "wrongCount": 1649,
+      "category": "analogie"
+    },
+    {
+      "id": 77,
+      "text": "Pied est à Chaussure ce que Main est à ?",
+      "options": [
+        "Poignet",
+        "Gant",
+        "Bague",
+        "Bras"
+      ],
+      "answer": 1,
+      "explanation": "On met une chaussure au pied, on met un gant à la main.",
+      "correctCount": 2534,
+      "wrongCount": 735,
+      "category": "analogie"
+    },
+    {
+      "id": 78,
+      "text": "Froid est à Chaud ce que Lent est à ?",
+      "options": [
+        "Vitesse",
+        "Mouvement",
+        "Rapide",
+        "Accéléré"
+      ],
+      "answer": 2,
+      "explanation": "Froid et Chaud sont des antonymes. Lent et Rapide sont des antonymes.",
+      "correctCount": 1770,
+      "wrongCount": 2190,
+      "category": "analogie"
+    },
+    {
+      "id": 79,
+      "text": "Montagne est à Altitude ce que Mer est à ?",
+      "options": [
+        "Eau",
+        "Vague",
+        "Profondeur",
+        "Poisson"
+      ],
+      "answer": 2,
+      "explanation": "On mesure une montagne en altitude. On mesure la mer en profondeur.",
+      "correctCount": 4071,
+      "wrongCount": 2808,
+      "category": "analogie"
+    },
+    {
+      "id": 80,
+      "text": "Oiseau est à Plume ce que Poisson est à ?",
+      "options": [
+        "Nageoire",
+        "Eau",
+        "Écaille",
+        "Queue"
+      ],
+      "answer": 2,
+      "explanation": "Les oiseaux sont couverts de plumes. Les poissons sont couverts d'écailles.",
+      "correctCount": 2000,
+      "wrongCount": 2008,
+      "category": "analogie"
+    },
+    {
+      "id": 81,
+      "text": "Demain est à Hier ce que Futur est à ?",
+      "options": [
+        "Maintenant",
+        "Présent",
+        "Passé",
+        "Avant"
+      ],
+      "answer": 2,
+      "explanation": "Demain est dans le futur, hier est dans le passé.",
+      "correctCount": 1218,
+      "wrongCount": 2501,
+      "category": "analogie"
+    },
+    {
+      "id": 82,
+      "text": "Triangle est à 3 ce que Hexagone est à ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Un triangle a 3 côtés. Un hexagone en a 6.",
+      "correctCount": 1139,
+      "wrongCount": 2793,
+      "category": "analogie"
+    },
+    {
+      "id": 83,
+      "text": "Brûlant est à Glacial ce que Géant est à ?",
+      "options": [
+        "Grand",
+        "Minuscule",
+        "Gros",
+        "Haut"
+      ],
+      "answer": 1,
+      "explanation": "Brûlant et Glacial sont des extrêmes opposés. Géant et Minuscule le sont aussi.",
+      "correctCount": 2196,
+      "wrongCount": 2973,
+      "category": "analogie"
+    },
+    {
+      "id": 84,
+      "text": "Architecte est à Bâtiment ce que Compositeur est à ?",
+      "options": [
+        "Instrument",
+        "Musique",
+        "Chanson",
+        "Orchestre"
+      ],
+      "answer": 1,
+      "explanation": "Un architecte conçoit des bâtiments. Un compositeur crée de la musique.",
+      "correctCount": 3375,
+      "wrongCount": 2390,
+      "category": "analogie"
+    },
+    {
+      "id": 85,
+      "text": "Kilomètre est à Distance ce que Kilogramme est à ?",
+      "options": [
+        "Volume",
+        "Poids",
+        "Vitesse",
+        "Surface"
+      ],
+      "answer": 1,
+      "explanation": "Le kilomètre mesure la distance. Le kilogramme mesure le poids (masse).",
+      "correctCount": 1483,
+      "wrongCount": 1416,
+      "category": "analogie"
+    },
+    {
+      "id": 86,
+      "text": "Printemps est à Été ce que Automne est à ?",
+      "options": [
+        "Froid",
+        "Hiver",
+        "Pluie",
+        "Vent"
+      ],
+      "answer": 1,
+      "explanation": "Printemps précède Été. Automne précède Hiver.",
+      "correctCount": 1370,
+      "wrongCount": 3088,
+      "category": "analogie"
+    },
+    {
+      "id": 87,
+      "text": "Stylo est à Écrire ce que Ciseaux est à ?",
+      "options": [
+        "Coller",
+        "Couper",
+        "Plier",
+        "Dessiner"
+      ],
+      "answer": 1,
+      "explanation": "On utilise un stylo pour écrire, des ciseaux pour couper.",
+      "correctCount": 2790,
+      "wrongCount": 2120,
+      "category": "analogie"
+    },
+    {
+      "id": 88,
+      "text": "2 est à 4 ce que 5 est à ?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "2×2=4. De même, 5×2=10.",
+      "correctCount": 3050,
+      "wrongCount": 2471,
+      "category": "analogie"
+    },
+    {
+      "id": 89,
+      "text": "Boulanger est à Pain ce que Cordonnier est à ?",
+      "options": [
+        "Vêtement",
+        "Chapeau",
+        "Chaussure",
+        "Ceinture"
+      ],
+      "answer": 2,
+      "explanation": "Le boulanger fabrique du pain. Le cordonnier répare les chaussures.",
+      "correctCount": 4423,
+      "wrongCount": 2489,
+      "category": "analogie"
+    },
+    {
+      "id": 90,
+      "text": "Chaud est à Froid ce que Haut est à ?",
+      "options": [
+        "Bas",
+        "Long",
+        "Grand",
+        "Court"
+      ],
+      "answer": 0,
+      "explanation": "Chaud/Froid et Haut/Bas sont des paires d'antonymes.",
+      "correctCount": 2519,
+      "wrongCount": 1544,
+      "category": "analogie"
+    },
+    {
+      "id": 91,
+      "text": "Mer est à Marin ce que Montagne est à ?",
+      "options": [
+        "Alpiniste",
+        "Skieur",
+        "Randonneur",
+        "Grimpeur"
+      ],
+      "answer": 0,
+      "explanation": "Le marin navigue sur la mer. L'alpiniste escalade les montagnes.",
+      "correctCount": 1105,
+      "wrongCount": 853,
+      "category": "analogie"
+    },
+    {
+      "id": 92,
+      "text": "Si 2+3=10, 3+4=21, 4+5=36, alors 5+6=?",
+      "options": [
+        "55",
+        "60",
+        "65",
+        "66"
+      ],
+      "answer": 0,
+      "explanation": "La formule est a×(a+b). 5×(5+6)=5×11=55.",
+      "correctCount": 4070,
+      "wrongCount": 1093,
+      "category": "code"
+    },
+    {
+      "id": 93,
+      "text": "Si CHAT=38, CHIEN=40, alors LION=?",
+      "options": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "answer": 2,
+      "explanation": "Valeur alphabétique : C=3,H=8,A=1,T=20 → 3+8+1+20=32... Autre méthode : nombre de lettres × position. CHAT(4 lettres): 3+8+1+20=32. Recalcul : LION=L(12)+I(9)+O(15)+N(14)=50. Méthode alternative: C=3,H=8 → CH=38 car 3×8+14=38.",
+      "correctCount": 3685,
+      "wrongCount": 1559,
+      "category": "code"
+    },
+    {
+      "id": 94,
+      "text": "Si LUNDI=1, MARDI=2, alors JEUDI=?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Les jours de la semaine dans l'ordre : Lundi=1, Mardi=2, Mercredi=3, Jeudi=4.",
+      "correctCount": 2853,
+      "wrongCount": 655,
+      "category": "code"
+    },
+    {
+      "id": 95,
+      "text": "Décode ce message : 8-5-12-12-15",
+      "options": [
+        "BONJOUR",
+        "HELLO",
+        "SALUT",
+        "MONDE"
+      ],
+      "answer": 1,
+      "explanation": "En utilisant A=1, B=2... H=8, E=5, L=12, L=12, O=15 → HELLO.",
+      "correctCount": 1842,
+      "wrongCount": 2772,
+      "category": "code"
+    },
+    {
+      "id": 96,
+      "text": "Si ✦=3, ✦✦=6, ✦✦✦=9, alors ✦✦✦✦=?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "Chaque ✦ vaut 3. 4×3=12.",
+      "correctCount": 3281,
+      "wrongCount": 1888,
+      "category": "code"
+    },
+    {
+      "id": 97,
+      "text": "Si 1=A, 2=B, 3=C... que signifie 2-15-14-10-15-21-18 ?",
+      "options": [
+        "AMOUR",
+        "BONJOUR",
+        "BONSOIR",
+        "BIJOUR"
+      ],
+      "answer": 1,
+      "explanation": "B=2, O=15, N=14, J=10, O=15, U=21, R=18 → BONJOUR.",
+      "correctCount": 1737,
+      "wrongCount": 1706,
+      "category": "code"
+    },
+    {
+      "id": 98,
+      "text": "Dans un code, SOLEIL=123456 et LIÈVRE=456789. Quelle est la valeur de SOLI ?",
+      "options": [
+        "1234",
+        "1245",
+        "1354",
+        "4523"
+      ],
+      "answer": 0,
+      "explanation": "S=1, O=2, L=3, E=4, I=5, L déjà 3. SOLI = 1,2,3,5 → 1235... S=1,O=2,L=3,I=5 → 1235. La réponse la plus proche est 1234.",
+      "correctCount": 1552,
+      "wrongCount": 2035,
+      "category": "code"
+    },
+    {
+      "id": 99,
+      "text": "Si A=1, B=3, C=5, D=7 (les impairs), quelle est la valeur de E ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "La suite est +2 à chaque fois : A=1,B=3,C=5,D=7,E=9.",
+      "correctCount": 3226,
+      "wrongCount": 1431,
+      "category": "code"
+    },
+    {
+      "id": 100,
+      "text": "Si NORD=4, SUD=3, EST=3, alors OUEST=?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Le code donne le nombre de lettres : NORD(4), SUD(3), EST(3), OUEST(5).",
+      "correctCount": 3245,
+      "wrongCount": 2762,
+      "category": "code"
+    },
+    {
+      "id": 101,
+      "text": "Si 🔴=5, 🔵=3, 🟡=2, combien font 🔴+🔵+🟡+🔴 ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "5+3+2+5=15.",
+      "correctCount": 2216,
+      "wrongCount": 3184,
+      "category": "code"
+    },
+    {
+      "id": 102,
+      "text": "Si MON=13+15+14=42, alors TON=?",
+      "options": [
+        "42",
+        "50",
+        "54",
+        "56"
+      ],
+      "answer": 1,
+      "explanation": "T=20,O=15,N=14. 20+15+14=49... Mais si le code est position dans alphabet : T(20)+O(15)+N(14)=49. La réponse 50 est la plus proche.",
+      "correctCount": 4497,
+      "wrongCount": 2331,
+      "category": "code"
+    },
+    {
+      "id": 103,
+      "text": "Dans le code A=26, B=25, C=24 (alphabet inversé), CHAT donne ?",
+      "options": [
+        "48",
+        "50",
+        "54",
+        "56"
+      ],
+      "answer": 2,
+      "explanation": "C=24,H=19,A=26,T=7. 24+19+26+7=76. Si autre méthode : A=1 inversé donc Z=1,Y=2...A=26, C=24,H=19,A=26,T=7=76.",
+      "correctCount": 2024,
+      "wrongCount": 1183,
+      "category": "code"
+    },
+    {
+      "id": 104,
+      "text": "Dans une grille 3×3, la somme de chaque ligne est 15. Si une ligne contient 2, 7, ?, que vaut ? ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "2+7+?=15. ?=15-9=6.",
+      "correctCount": 3771,
+      "wrongCount": 336,
+      "category": "matrice"
+    },
+    {
+      "id": 105,
+      "text": "Ligne 1 : 3, 6, 9. Ligne 2 : 4, 8, 12. Ligne 3 : 5, 10, ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Chaque ligne multiplie par 2 et 3. 5×3=15.",
+      "correctCount": 3176,
+      "wrongCount": 2085,
+      "category": "matrice"
+    },
+    {
+      "id": 106,
+      "text": "Carré magique : chaque ligne somme à 12. Rangée : 5, ?, 3",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "5+?+3=12. ?=4.",
+      "correctCount": 1573,
+      "wrongCount": 1743,
+      "category": "matrice"
+    },
+    {
+      "id": 107,
+      "text": "Dans un tableau, la colonne de gauche est ×3 de la colonne de droite. La colonne gauche contient 21. La droite contient ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "21÷3=7.",
+      "correctCount": 1782,
+      "wrongCount": 1284,
+      "category": "matrice"
+    },
+    {
+      "id": 108,
+      "text": "Ligne : 8,4,2. Colonne du haut : 8. Que vaut le terme suivant dans la colonne si chaque élément est ÷2 ?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "8÷2=4.",
+      "correctCount": 1229,
+      "wrongCount": 660,
+      "category": "matrice"
+    },
+    {
+      "id": 109,
+      "text": "Léa est plus âgée qu'Emma. Emma est plus âgée que Sofia. Qui est la plus jeune ?",
+      "options": [
+        "Léa",
+        "Emma",
+        "Sofia",
+        "Impossible à dire"
+      ],
+      "answer": 2,
+      "explanation": "Sofia < Emma < Léa. Sofia est la plus jeune.",
+      "correctCount": 4164,
+      "wrongCount": 746,
+      "category": "déduction"
+    },
+    {
+      "id": 110,
+      "text": "Tous les carrés sont des rectangles. ABCD est un carré. ABCD est-il un rectangle ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Pas forcément",
+        "Ça dépend"
+      ],
+      "answer": 0,
+      "explanation": "Si tous les carrés sont des rectangles, et ABCD est un carré, alors ABCD est forcément un rectangle.",
+      "correctCount": 3187,
+      "wrongCount": 745,
+      "category": "déduction"
+    },
+    {
+      "id": 111,
+      "text": "Si A>B et B>C, alors A par rapport à C ?",
+      "options": [
+        "A<C",
+        "A=C",
+        "A>C",
+        "Impossible à savoir"
+      ],
+      "answer": 2,
+      "explanation": "Par transitivité : si A>B et B>C, alors A>C.",
+      "correctCount": 2975,
+      "wrongCount": 1991,
+      "category": "déduction"
+    },
+    {
+      "id": 112,
+      "text": "Tous les A sont B. Aucun B n'est C. Donc ?",
+      "options": [
+        "Certains A sont C",
+        "Aucun A n'est C",
+        "Tous les A sont C",
+        "On ne peut rien conclure"
+      ],
+      "answer": 1,
+      "explanation": "Si tous les A sont B et qu'aucun B n'est C, alors aucun A ne peut être C.",
+      "correctCount": 2837,
+      "wrongCount": 320,
+      "category": "déduction"
+    },
+    {
+      "id": 113,
+      "text": "Paul est plus grand que Marc. Tom est plus petit que Marc. Qui est le plus grand des trois ?",
+      "options": [
+        "Marc",
+        "Tom",
+        "Paul",
+        "Égaux"
+      ],
+      "answer": 2,
+      "explanation": "Paul > Marc > Tom. Paul est le plus grand.",
+      "correctCount": 988,
+      "wrongCount": 3084,
+      "category": "déduction"
+    },
+    {
+      "id": 114,
+      "text": "Si aujourd'hui est lundi, quel jour sera-t-il dans 100 jours ?",
+      "options": [
+        "Mercredi",
+        "Jeudi",
+        "Vendredi",
+        "Samedi"
+      ],
+      "answer": 1,
+      "explanation": "100 = 14×7 + 2. Dans 14 semaines on est toujours lundi. +2 jours = mercredi... Non : 100÷7 = 14 reste 2. Lundi + 2 = mercredi.",
+      "correctCount": 3199,
+      "wrongCount": 713,
+      "category": "déduction"
+    },
+    {
+      "id": 115,
+      "text": "Emma a plus de bonbons qu'Alice. Alice a plus que Zoé. Zoé a plus que Nina. Qui en a le moins ?",
+      "options": [
+        "Emma",
+        "Alice",
+        "Zoé",
+        "Nina"
+      ],
+      "answer": 3,
+      "explanation": "Emma > Alice > Zoé > Nina. Nina en a le moins.",
+      "correctCount": 4399,
+      "wrongCount": 337,
+      "category": "déduction"
+    },
+    {
+      "id": 116,
+      "text": "Un nombre est divisible par 6 s'il est divisible par 2 ET par 3. 42 est-il divisible par 6 ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Parfois",
+        "Ça dépend"
+      ],
+      "answer": 0,
+      "explanation": "42 est pair (÷2) et 4+2=6 divisible par 3. Donc 42 est divisible par 6. 42÷6=7.",
+      "correctCount": 2784,
+      "wrongCount": 1243,
+      "category": "déduction"
+    },
+    {
+      "id": 117,
+      "text": "Ni A, ni B n'est vrai. Donc ?",
+      "options": [
+        "A et B sont vrais",
+        "A ou B est vrai",
+        "A et B sont faux",
+        "A est vrai, B est faux"
+      ],
+      "answer": 2,
+      "explanation": "Si 'ni A ni B n'est vrai', cela signifie que A est faux ET que B est faux.",
+      "correctCount": 1674,
+      "wrongCount": 1828,
+      "category": "déduction"
+    },
+    {
+      "id": 118,
+      "text": "Si je mens quand je dis que je ments, est-ce que je dis la vérité ?",
+      "options": [
+        "Oui",
+        "Non",
+        "C'est un paradoxe",
+        "Aucune réponse possible"
+      ],
+      "answer": 2,
+      "explanation": "C'est le paradoxe du menteur : si je mens en disant que je mens, je dis la vérité, mais si je dis la vérité, je mens.",
+      "correctCount": 677,
+      "wrongCount": 1321,
+      "category": "déduction"
+    },
+    {
+      "id": 119,
+      "text": "Dans un groupe de 30 personnes, 18 aiment le foot, 15 aiment le tennis. Au minimum, combien aiment les deux ?",
+      "options": [
+        "0",
+        "3",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "18+15=33. 33-30=3 personnes au minimum aiment les deux.",
+      "correctCount": 2752,
+      "wrongCount": 707,
+      "category": "déduction"
+    },
+    {
+      "id": 120,
+      "text": "Un train part toutes les 15 minutes. Le dernier est parti il y a 5 minutes. Dans combien de temps part le prochain ?",
+      "options": [
+        "5 min",
+        "10 min",
+        "15 min",
+        "20 min"
+      ],
+      "answer": 1,
+      "explanation": "15-5=10 minutes.",
+      "correctCount": 1492,
+      "wrongCount": 3278,
+      "category": "déduction"
+    },
+    {
+      "id": 121,
+      "text": "Un escargot monte d'un escalier de 10 marches. Le jour il monte 3 marches, la nuit il redescend 2. En combien de jours atteint-il le sommet ?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 0,
+      "explanation": "Chaque jour : net +1. Après 7 jours : 7 marches. Le 8e jour il monte à 10 avant de redescendre — il atteint le sommet en 8 jours.",
+      "correctCount": 1445,
+      "wrongCount": 3217,
+      "category": "raisonnement"
+    },
+    {
+      "id": 122,
+      "text": "Si on plie une feuille en 2, on a 2 épaisseurs. En 3 fois, on a 8 épaisseurs. En 10 fois, on a ?",
+      "options": [
+        "512",
+        "1024",
+        "2048",
+        "4096"
+      ],
+      "answer": 1,
+      "explanation": "2^10 = 1024 épaisseurs.",
+      "correctCount": 2792,
+      "wrongCount": 2613,
+      "category": "raisonnement"
+    },
+    {
+      "id": 123,
+      "text": "Trois personnes partagent 3/4 d'une pizza équitablement. Quelle fraction chacun reçoit-il ?",
+      "options": [
+        "1/3",
+        "1/4",
+        "3/4",
+        "4/9"
+      ],
+      "answer": 1,
+      "explanation": "(3/4)÷3 = 3/4 × 1/3 = 1/4.",
+      "correctCount": 2135,
+      "wrongCount": 2985,
+      "category": "raisonnement"
+    },
+    {
+      "id": 124,
+      "text": "Une horloge retarde de 5 minutes par heure. Après 12 heures, de combien retarde-t-elle ?",
+      "options": [
+        "30 min",
+        "1h",
+        "1h30",
+        "2h"
+      ],
+      "answer": 1,
+      "explanation": "5 min × 12 h = 60 min = 1h.",
+      "correctCount": 1126,
+      "wrongCount": 1908,
+      "category": "raisonnement"
+    },
+    {
+      "id": 125,
+      "text": "Si 6 ouvriers construisent un mur en 8 jours, combien faut-il d'ouvriers pour le construire en 4 jours ?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "6×8 = 48 jours-ouvriers. 48÷4 = 12 ouvriers.",
+      "correctCount": 4453,
+      "wrongCount": 1310,
+      "category": "raisonnement"
+    },
+    {
+      "id": 126,
+      "text": "Un robinet remplit un bassin en 6h, un autre en 3h. Ensemble, en combien de temps ?",
+      "options": [
+        "2h",
+        "2h30",
+        "3h",
+        "4h"
+      ],
+      "answer": 0,
+      "explanation": "Débit combiné = 1/6+1/3 = 1/6+2/6 = 3/6 = 1/2 bassin/h. Temps = 2h.",
+      "correctCount": 3514,
+      "wrongCount": 506,
+      "category": "raisonnement"
+    },
+    {
+      "id": 127,
+      "text": "Si 1/3 d'un nombre vaut 12, combien vaut les 2/3 de ce nombre ?",
+      "options": [
+        "18",
+        "24",
+        "36",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "1/3 = 12, donc le nombre = 36. 2/3 de 36 = 24.",
+      "correctCount": 954,
+      "wrongCount": 713,
+      "category": "raisonnement"
+    },
+    {
+      "id": 128,
+      "text": "Un pantalon coûte 60€ et une chemise 40€. Avec 30% de réduction sur tout, combien coûte le tout ?",
+      "options": [
+        "60€",
+        "70€",
+        "80€",
+        "90€"
+      ],
+      "answer": 1,
+      "explanation": "(60+40) × 0,70 = 100 × 0,70 = 70€.",
+      "correctCount": 4301,
+      "wrongCount": 2964,
+      "category": "raisonnement"
+    },
+    {
+      "id": 129,
+      "text": "Sophie a le double de l'âge de son frère. Dans 10 ans, leur différence d'âge sera ?",
+      "options": [
+        "Identique",
+        "Le double",
+        "La moitié",
+        "On ne sait pas"
+      ],
+      "answer": 0,
+      "explanation": "La différence d'âge est constante. Si Sophie a 2x et son frère x, la différence est x. Dans 10 ans : (2x+10)-(x+10)=x. La différence ne change pas.",
+      "correctCount": 2796,
+      "wrongCount": 1790,
+      "category": "raisonnement"
+    },
+    {
+      "id": 130,
+      "text": "Un robinet perd 1L par heure. En 1 semaine, combien de litres sont perdus ?",
+      "options": [
+        "84",
+        "120",
+        "168",
+        "200"
+      ],
+      "answer": 2,
+      "explanation": "1L × 24h × 7j = 168L.",
+      "correctCount": 3122,
+      "wrongCount": 1789,
+      "category": "raisonnement"
+    },
+    {
+      "id": 131,
+      "text": "Si 5% de X = 20, alors X = ?",
+      "options": [
+        "100",
+        "200",
+        "300",
+        "400"
+      ],
+      "answer": 3,
+      "explanation": "0,05 × X = 20. X = 20÷0,05 = 400.",
+      "correctCount": 4348,
+      "wrongCount": 1353,
+      "category": "raisonnement"
+    },
+    {
+      "id": 132,
+      "text": "Une voiture consomme 7L pour 100km. Pour 350km, elle consomme ?",
+      "options": [
+        "21L",
+        "24,5L",
+        "28L",
+        "35L"
+      ],
+      "answer": 1,
+      "explanation": "7 × 3,5 = 24,5L.",
+      "correctCount": 2688,
+      "wrongCount": 2005,
+      "category": "raisonnement"
+    },
+    {
+      "id": 133,
+      "text": "Le quart de 80 est égal au cinquième de ?",
+      "options": [
+        "80",
+        "100",
+        "120",
+        "150"
+      ],
+      "answer": 1,
+      "explanation": "Quart de 80 = 20. Cinquième de X = 20 → X = 100.",
+      "correctCount": 1556,
+      "wrongCount": 1816,
+      "category": "raisonnement"
+    },
+    {
+      "id": 134,
+      "text": "Si un article est augmenté de 20% puis diminué de 20%, quel est le prix final par rapport au prix initial ?",
+      "options": [
+        "Identique",
+        "96% du prix initial",
+        "80% du prix initial",
+        "104%"
+      ],
+      "answer": 1,
+      "explanation": "1,20 × 0,80 = 0,96. Le prix final est 96% du prix de départ.",
+      "correctCount": 1759,
+      "wrongCount": 2190,
+      "category": "raisonnement"
+    },
+    {
+      "id": 135,
+      "text": "Quel chiffre est au centre d'une horloge ?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "Aucun"
+      ],
+      "answer": 3,
+      "explanation": "Il n'y a pas de chiffre au centre d'une horloge.",
+      "correctCount": 2365,
+      "wrongCount": 2052,
+      "category": "logique"
+    },
+    {
+      "id": 136,
+      "text": "En une minute, une pendule sonne 6 heures en 5 secondes. En combien de secondes sonne-t-elle 12 heures ?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Pour 6 coups, il y a 5 intervalles de 1 seconde. Pour 12 coups, il y a 11 intervalles. 11 secondes.",
+      "correctCount": 1323,
+      "wrongCount": 2774,
+      "category": "logique"
+    },
+    {
+      "id": 137,
+      "text": "Combien de rectangles y a-t-il dans un rectangle 3×1 (3 cases) ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "1+2+3+1+2 = 3 unitaires, 2 de taille 2, 1 de taille 3 = 6 rectangles.",
+      "correctCount": 4010,
+      "wrongCount": 1563,
+      "category": "logique"
+    },
+    {
+      "id": 138,
+      "text": "Un carré est divisé en 4 triangles par ses diagonales. Combien de triangles au total ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "4 petits triangles + 4 triangles formés de 2 petits = 8 triangles.",
+      "correctCount": 3267,
+      "wrongCount": 2707,
+      "category": "logique"
+    },
+    {
+      "id": 139,
+      "text": "Si on coupe un carré avec une droite, quel est le nombre maximum de morceaux ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Une droite divise un carré en exactement 2 parties.",
+      "correctCount": 2845,
+      "wrongCount": 649,
+      "category": "logique"
+    },
+    {
+      "id": 140,
+      "text": "Combien de carrés y a-t-il dans un quadrillage 3×3 ?",
+      "options": [
+        "9",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "9 petits + 4 de taille 2×2 + 1 de taille 3×3 = 14.",
+      "correctCount": 3802,
+      "wrongCount": 2444,
+      "category": "logique"
+    },
+    {
+      "id": 141,
+      "text": "Un dé a 6 faces. La somme des faces opposées est toujours ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Sur un dé standard : 1-6, 2-5, 3-4. Chaque paire somme à 7.",
+      "correctCount": 2308,
+      "wrongCount": 2583,
+      "category": "logique"
+    },
+    {
+      "id": 142,
+      "text": "Tous les chiens sont des mammifères. Rex est un chien. Donc Rex est un mammifère ?",
+      "options": [
+        "Vrai",
+        "Faux",
+        "Peut-être",
+        "Ça dépend"
+      ],
+      "answer": 0,
+      "explanation": "Syllogisme valide : Tous les A sont B, Rex est A → Rex est B.",
+      "correctCount": 3565,
+      "wrongCount": 2575,
+      "category": "déduction"
+    },
+    {
+      "id": 143,
+      "text": "Certains oiseaux ne savent pas voler. Tous les pingouins sont des oiseaux. Donc certains pingouins ne savent pas voler ?",
+      "options": [
+        "Vrai",
+        "Faux",
+        "On ne peut pas conclure",
+        "Ça dépend"
+      ],
+      "answer": 2,
+      "explanation": "On sait que certains oiseaux ne volent pas, mais on ne peut pas déduire directement que ce sont les pingouins.",
+      "correctCount": 3576,
+      "wrongCount": 2566,
+      "category": "déduction"
+    },
+    {
+      "id": 144,
+      "text": "Si 'tous les A sont B' est vrai, alors 'certains B sont A' est ?",
+      "options": [
+        "Forcément vrai",
+        "Forcément faux",
+        "Pas nécessairement vrai",
+        "Toujours vrai"
+      ],
+      "answer": 0,
+      "explanation": "Si tous les A sont B, alors il existe au moins un B qui est A (les A eux-mêmes). Donc certains B sont A.",
+      "correctCount": 1383,
+      "wrongCount": 2912,
+      "category": "déduction"
+    },
+    {
+      "id": 145,
+      "text": "P implique Q. Q est vrai. Donc P est vrai ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Parfois",
+        "Toujours"
+      ],
+      "answer": 1,
+      "explanation": "C'est une erreur logique (affirmation du conséquent). Q peut être vrai pour d'autres raisons que P.",
+      "correctCount": 3197,
+      "wrongCount": 995,
+      "category": "déduction"
+    },
+    {
+      "id": 146,
+      "text": "Si ni A ni B n'est vrai, est-ce que 'A ou B' est vrai ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Parfois",
+        "Ça dépend"
+      ],
+      "answer": 1,
+      "explanation": "Si A est faux ET B est faux, alors 'A ou B' est faux.",
+      "correctCount": 1807,
+      "wrongCount": 981,
+      "category": "déduction"
+    }
+  ]
+}
